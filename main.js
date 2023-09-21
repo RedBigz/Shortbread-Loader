@@ -8,7 +8,7 @@ var defaultKernels = [
         saveId: "8b16bf7c", // CRC32
         available: true,
         res: {
-            main: "https://redbigz.github.io/Shortbread/kernels/ccsekern/main.js"
+            main: "https://redbigz.github.io/Shortbread-Loader/kernels/ccsekern/main.js"
         }
     },
     {
