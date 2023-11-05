@@ -3,7 +3,7 @@ var defaultKernels = [
         name: "CCSE",
         author: "klattmose",
         version: "2.035+kernel",
-        date: "TBA",
+        date: "20/9/23",
         id: "io.github.klattmose.CCSE",
         saveId: "8b16bf7c", // CRC32
         available: true,
@@ -15,7 +15,7 @@ var defaultKernels = [
         name: "Steam Workshop",
         author: "RedBigz",
         version: "v1.0",
-        date: "TBA",
+        date: "5/11/23",
         id: "io.redbigz.wskern",
         saveId: "webshop-407a3d2c",
         available: true,
