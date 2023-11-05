@@ -134,9 +134,12 @@ async function loadWorkshopMod(mod) {
 	modInfo[mod] = infotxt;
 	window.currentMain = mainjs;
 
-	(() => {
-		eval(window.currentMain);
-	}).call(window);
+	// (() => {
+	// 	eval(window.currentMain);
+	// }).call(window);
+	// no. use blob instead
+	let bloburl = URL.createObjectURL(new Blob([mainjs]));
+	Game.LoadMod(bloburl);
 
 	console.log(modInfo, Kernel.config);
 }
