@@ -181,7 +181,7 @@ function workshop() {
 let modInfo = {};
 
 for (mod in Kernel.config) {
-	await loadWorkshopMod(mod);
+	loadWorkshopMod(mod);
 }
 
 document.getElementById("versionNumber").innerHTML +=
