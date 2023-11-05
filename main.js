@@ -12,6 +12,18 @@ var defaultKernels = [
         }
     },
     {
+        name: "Steam Workshop",
+        author: "RedBigz",
+        version: "v1.0",
+        date: "TBA",
+        id: "io.redbigz.wskern",
+        saveId: "webshop-407a3d2c",
+        available: true,
+        res: {
+            main: "https://redbigz.github.io/Shortbread-Loader/kernels/wskern/main.js"
+        }
+    },
+    {
         name: "Macadamia",
         author: "RedBigz",
         version: "0.0.1proto",
